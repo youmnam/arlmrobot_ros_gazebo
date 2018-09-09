@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>arlmrobot_description</name>
+  <version>1.0.7</version>
+  <description>
+    URDF and meshes describing ARL mobile robot.
+  </description>
+
+  <license>BSD</license>
+  <author>Youmna Magdy</author>
+  <maintainer email="yomna.magdy@eng.asu.edu.eg">Youmna Magdy</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>urdf</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>pcl_ros</build_depend>
+
+</package>
